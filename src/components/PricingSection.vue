@@ -13,15 +13,13 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/Jesus.jpeg"></v-img>
+                          <v-img class="imagenRedonda" src="~@/assets/img/Jesus2.jpeg"></v-img>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Desarrollador móvil</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Jesús Del Ángel</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Jesús del Ángel</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
+                    <div class="text-uppercase blue--text">Desarrollador móvil</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
@@ -46,17 +44,15 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/Josue.jpeg"/>
+                          <v-img class="imagenRedonda" src="~@/assets/img/Josue2.jpeg"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Desarrollador web</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Josue Cruz</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Josue Cruz</div>
+                    <div class="text-uppercase blue--text">Desarrollador web</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
                     <v-btn
@@ -81,15 +77,13 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/Cristhian.jpeg"/>
+                          <v-img class="imagenRedonda" src="~@/assets/img/Cristhian.jpeg"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Desarrollador web</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Cristhian Olivares</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Cristhian Olivares</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
+                    <div class="text-uppercase blue--text">Desarrollador web</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
@@ -174,10 +168,14 @@ ul {
   color: white;
 }
 
+.imagenRedonda {
+  border-radius: 150px;
+}
+
 .circle1 {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background-color: #f0f8ff;
   display: flex;
   align-items: center;
@@ -186,8 +184,8 @@ ul {
 
 .circle2 {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background-color: #e0effc;
   display: flex;
   align-items: center;

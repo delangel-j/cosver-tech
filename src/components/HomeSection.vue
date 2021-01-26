@@ -73,9 +73,12 @@
         <v-img src="@/assets/img/borderWaves.svg" />
       </div>
     </v-parallax>
+    
     <v-container fluid id="features" class="mt-2">
       <v-row align="center" justify="center">
         <v-col cols="10">
+              <h1 class="font-weight-light display-2">Nuestras tecnologías</h1>
+              <br>
           <v-row align="center" justify="space-around">
             <!-- <v-col cols="12" class="text-center">
               <h1 class="font-weight-light display-2">Title</h1>
@@ -83,6 +86,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </h1>
             </v-col> -->
+            
             <v-col
               cols="12"
               sm="4"
@@ -90,6 +94,7 @@
               v-for="(feature, i) in features"
               :key="i"
             >
+            
               <v-hover v-slot:default="{ hover }">
                 <v-card
                   class="card"
@@ -137,19 +142,19 @@ export default {
       videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/vuelogo.png"),
+          title: "Vue",
+          text: "Tenemos experiencia en desarrollar aplicaciones web innovadoras, utilizando estandares web de alta calidad..",
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/nativescriptlogo.png"),
+          title: "NativeScript",
+          text: "Nuestras aplicaciones moviles estan desarrolladas bajo un framework de calidad, ofreciendo soporte en dispositivos Android y iOS.",
         },
         {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/djangologo.png"),
+          title: "Django",
+          text: "Utilizamos tecnologías como Django para desarrollar aplicaciones robustas y escalables, con la capacidad de adaptarse a múltiples servicios.",
         },
       ],
     };
